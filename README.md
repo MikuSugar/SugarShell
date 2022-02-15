@@ -19,7 +19,12 @@ pip3 install .
 
 ### PiP 安装
 
-//TODO
+```shell
+#python版本为3.x
+pip install sugar_shell
+```
+
+
 
 ### 使用
 
