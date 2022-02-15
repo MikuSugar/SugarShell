@@ -4,7 +4,7 @@
 from setuptools import setup
 setup(
     name="sugar_shell",
-    version='0.2',
+    version='0.2.1',
     author="mikusugar",
     author_email="syfangjie@live.cn",
     url="https://github.com/MikuSugar/SugarShell",
