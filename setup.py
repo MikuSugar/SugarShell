@@ -13,6 +13,7 @@ setup(
     include_package_data=True,
     platforms="any",
     install_requires=[],
+    python_requires='>=3',
     entry_points={
         'console_scripts': [
             'psh=sugar_shell:ssh_helper'
