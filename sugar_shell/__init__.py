@@ -57,7 +57,7 @@ def ssh_helper():
     if not entry_list and status_code == 1:
         return
 
-    print('Hello %s, Welcome to use SugarShell ~ ' % (os.environ['USER']))
+    print('Hello %s, Welcome to use SugarShell~ :)' % (os.environ['USER']))
 
     entry_id = show(entry_id, entry_list)
 

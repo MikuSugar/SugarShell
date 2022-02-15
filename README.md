@@ -1,6 +1,6 @@
 # SugarShell
 简易SSH远程连接工具
-![QQ20220215-214234-HD](https://cdn.jsdelivr.net/gh/mikusugar/PictureBed@master/uPic/2022/02/QQ20220215-214234-HD.gif)
+![QQ20220215-224807-HD](https://cdn.jsdelivr.net/gh/mikusugar/PictureBed@master/uPic/2022/02/QQ20220215-224807-HD.gif)
 ## 安装&使用
 
 ### 前置条件
