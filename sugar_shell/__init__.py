@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
 # encoding=utf-8
 import os
+import signal
+import sys
 
 ssh_config_file = '~/.ssh/config'
+
+
+def signal_handler(signal, frame):
+    print()
+    print('GoodBye %s' % (os.environ['USER']))
+    sys.exit(0)
 
 
 def parse_config():
@@ -51,6 +59,7 @@ def parse_config():
 
 
 def ssh_helper():
+    signal.signal(signal.SIGINT, signal_handler)
     entry_id = 0
     entry_list, status_code = parse_config()
 
