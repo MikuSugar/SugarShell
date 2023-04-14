@@ -6,6 +6,15 @@ import sys
 
 ssh_config_file = '~/.ssh/config'
 
+title = '''
+                                  _          _ _ 
+ ___ _   _  __ _  __ _ _ __   ___| |__   ___| | |
+/ __| | | |/ _` |/ _` | '__| / __| '_ \ / _ \ | |
+\__ \ |_| | (_| | (_| | |    \__ \ | | |  __/ | |
+|___/\__,_|\__, |\__,_|_|    |___/_| |_|\___|_|_|
+           |___/                                 
+'''
+
 
 def signal_handler(signal, frame):
     print()
@@ -66,6 +75,7 @@ def ssh_helper():
     if not entry_list and status_code == 1:
         return
 
+    print(title)
     print('Hello %s, Welcome to use SugarShell~ :)' % (os.environ['USER']))
 
     entry_id = show(entry_id, entry_list)
