@@ -15,7 +15,7 @@ title = '''
 \__ \ |_| | (_| | (_| | |    \__ \ | | |  __/ | |
 |___/\__,_|\__, |\__,_|_|    |___/_| |_|\___|_|_|
            |___/                                 
-                                            v0.2.6
+                                            v0.2.7
 '''
 
 
@@ -82,7 +82,7 @@ def ssh_helper():
     print('Hello %s, Welcome to use SugarShell~ :)' % (os.environ['USER']))
 
     # 定义每页显示的主机数
-    per_page = 15
+    per_page = 20
     # 计算总页数
     total_pages = ceil(len(entry_list) / per_page)
     # 初始化当前页数为1
